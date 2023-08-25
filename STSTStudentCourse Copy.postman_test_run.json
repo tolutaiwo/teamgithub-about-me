@@ -1,0 +1,681 @@
+{
+	"id": "c494f18c-de37-4343-9f31-1a1fc9bf71a4",
+	"name": "STSTStudentCourse Copy",
+	"timestamp": "2023-08-25T03:31:28.243Z",
+	"collection_id": "29192083-253e6ab5-8d00-4770-b592-83a88fbed809",
+	"folder_id": 0,
+	"environment_id": "29192083-6eb4eed0-3ac8-49d2-ae7b-6ab8a9fe2ca8",
+	"totalPass": 47,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-25T03:31:18.304Z",
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "ff04acc6-a5a4-42cb-a5da-ad112be3004e",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 562,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains title": true,
+				"Verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				562
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains title": true,
+					"Verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "2a0fc290-fa75-4d37-b721-f105fa19caf3",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 260,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK": true,
+				"verify that body contains title": true,
+				"verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				260
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK": true,
+					"verify that body contains title": true,
+					"verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "eb95ca29-7170-4595-865e-79d8ca2a4e70",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 258,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK": true,
+				"verify that body contains title": true,
+				"verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				258
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK": true,
+					"verify that body contains title": true,
+					"verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "024cb7c1-8599-49db-9312-13b6603168a5",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 276,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK": true,
+				"verify that body contains title": true,
+				"verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				276
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK": true,
+					"verify that body contains title": true,
+					"verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "75757817-0445-4dca-aeab-b3e3b6dfb2ab",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/",
+			"time": 756,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"to check the id number is 1": true,
+				"to check the name is Viscount Who Loved Me": true,
+				"to check the type is fiction": true,
+				"Verify that name is The Russian ": false
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the id number is 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the name is Viscount Who Loved Me": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the type is fiction": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that name is The Russian ": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				756
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"to check the id number is 1": true,
+					"to check the name is Viscount Who Loved Me": true,
+					"to check the type is fiction": true,
+					"Verify that name is The Russian ": false
+				}
+			]
+		},
+		{
+			"id": "b8efc6c4-4269-4702-8271-34c0020c5af5",
+			"name": "Get Books by ID",
+			"url": "https://simple-books-api.glitch.me/",
+			"time": 637,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"to check the id number is 1": true,
+				"to check the name is Viscount Who Loved Me": true,
+				"to check the type is fiction": true,
+				"Verify that name is The Russian ": false
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the id number is 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the name is Viscount Who Loved Me": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the type is fiction": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that name is The Russian ": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				637
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"to check the id number is 1": true,
+					"to check the name is Viscount Who Loved Me": true,
+					"to check the type is fiction": true,
+					"Verify that name is The Russian ": false
+				}
+			]
+		},
+		{
+			"id": "240b40ea-8936-4c1a-8517-249063c413e0",
+			"name": "Get Books by Type",
+			"url": "https://simple-books-api.glitch.me//books?type=fiction",
+			"time": 257,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains name": true,
+				"Verify that name is The Russian": false
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that name is The Russian": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				257
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains name": true,
+					"Verify that name is The Russian": false
+				}
+			]
+		},
+		{
+			"id": "e157fff2-934e-4d67-b0d7-84805a9ac776",
+			"name": "Place a book order - using book ID",
+			"url": "https://simple-books-api.glitch.me//orders",
+			"time": 353,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name have an Unauthorized string": true,
+				"Verify that error is Invalid bearer token": false,
+				"Body contains error string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name have an Unauthorized string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that error is Invalid bearer token": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body contains error string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				353
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name have an Unauthorized string": true,
+					"Verify that error is Invalid bearer token": false,
+					"Body contains error string": true
+				}
+			]
+		},
+		{
+			"id": "f55e00c2-a4bc-4dc5-b7f9-d09216ffe41f",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me//orders",
+			"time": 249,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code should be 401": true,
+				"Status code name should have an Unauthorized string": true,
+				"Verify that body contains error": true,
+				"Verify that error is Invalid bearer token.": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an Unauthorized string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that error is Invalid bearer token.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				249
+			],
+			"allTests": [
+				{
+					"Status code should be 401": true,
+					"Status code name should have an Unauthorized string": true,
+					"Verify that body contains error": true,
+					"Verify that error is Invalid bearer token.": true
+				}
+			]
+		},
+		{
+			"id": "15dc018f-a803-45ef-b802-cc4f546def7b",
+			"name": "Get an order - using orderID",
+			"url": "https://simple-books-api.glitch.me//orders/AaX7WGCUeHH3lRwGRh57M",
+			"time": 313,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code should be 401": true,
+				"Status code name should have an Unauthorized string": true,
+				"Verify that body contains error": true,
+				"Verify that error is Invalid bearer token.": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an Unauthorized string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that error is Invalid bearer token.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				313
+			],
+			"allTests": [
+				{
+					"Status code should be 401": true,
+					"Status code name should have an Unauthorized string": true,
+					"Verify that body contains error": true,
+					"Verify that error is Invalid bearer token.": true
+				}
+			]
+		},
+		{
+			"id": "63ff7008-7ddf-41b1-8e00-66c81c805dcd",
+			"name": "Update an order",
+			"url": "https://simple-books-api.glitch.me//orders",
+			"time": 326,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code should be 401": true,
+				"Status code name should have an Unauthorized string": true,
+				"Verify that body contains error": true,
+				"Verify that error is Invalid bearer token.": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an Unauthorized string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that error is Invalid bearer token.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				326
+			],
+			"allTests": [
+				{
+					"Status code should be 401": true,
+					"Status code name should have an Unauthorized string": true,
+					"Verify that body contains error": true,
+					"Verify that error is Invalid bearer token.": true
+				}
+			]
+		},
+		{
+			"id": "0d284449-74f4-4617-ba2d-b020dfc0be97",
+			"name": "Delete an order",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 313,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": false,
+				"Status code name have an Not Found string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code name have an Not Found string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				313
+			],
+			"allTests": [
+				{
+					"Status code is 404": false,
+					"Status code name have an Not Found string": true
+				}
+			]
+		},
+		{
+			"id": "59d6303c-7e8e-4e6e-8da8-a2f533a5c5a1",
+			"name": "Register API Client",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 261,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				261
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "52f0d6b4-9ef2-475d-bcb6-144027e7dad6",
+			"name": "Get API Status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 352,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code should be 200": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				352
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code should be 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5173,
+	"collection": {
+		"requests": [
+			{
+				"id": "ff04acc6-a5a4-42cb-a5da-ad112be3004e",
+				"method": "GET"
+			},
+			{
+				"id": "2a0fc290-fa75-4d37-b721-f105fa19caf3",
+				"method": "GET"
+			},
+			{
+				"id": "eb95ca29-7170-4595-865e-79d8ca2a4e70",
+				"method": "GET"
+			},
+			{
+				"id": "024cb7c1-8599-49db-9312-13b6603168a5",
+				"method": "GET"
+			},
+			{
+				"id": "75757817-0445-4dca-aeab-b3e3b6dfb2ab",
+				"method": "GET"
+			},
+			{
+				"id": "b8efc6c4-4269-4702-8271-34c0020c5af5",
+				"method": "GET"
+			},
+			{
+				"id": "240b40ea-8936-4c1a-8517-249063c413e0",
+				"method": "GET"
+			},
+			{
+				"id": "e157fff2-934e-4d67-b0d7-84805a9ac776",
+				"method": "POST"
+			},
+			{
+				"id": "f55e00c2-a4bc-4dc5-b7f9-d09216ffe41f",
+				"method": "GET"
+			},
+			{
+				"id": "15dc018f-a803-45ef-b802-cc4f546def7b",
+				"method": "GET"
+			},
+			{
+				"id": "63ff7008-7ddf-41b1-8e00-66c81c805dcd",
+				"method": "POST"
+			},
+			{
+				"id": "0d284449-74f4-4617-ba2d-b020dfc0be97",
+				"method": "DELETE"
+			},
+			{
+				"id": "59d6303c-7e8e-4e6e-8da8-a2f533a5c5a1",
+				"method": "POST"
+			},
+			{
+				"id": "52f0d6b4-9ef2-475d-bcb6-144027e7dad6",
+				"method": "GET"
+			}
+		]
+	}
+}
